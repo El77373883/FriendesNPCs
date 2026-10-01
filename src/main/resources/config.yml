@@ -1,0 +1,13 @@
+# Configuración de FriendesNPCs
+# Aquí se guardan los NPCs automáticamente
+
+settings:
+  # Distancia máxima para que un jugador vea los NPCs
+  view-distance: 64
+  # Guardar automáticamente cada X segundos (0 = desactivado)
+  autosave-interval: 300
+  # Idioma por defecto
+  language: es
+
+npcs: {}
+holograms: {}
