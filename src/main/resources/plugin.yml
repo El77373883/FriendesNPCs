@@ -1,0 +1,31 @@
+name: FriendesNPCs
+version: ${project.version}
+main: com.tunombre.friendesnpcs.FriendesNPCs
+api-version: '1.21'
+authors: [ TuNombre ]
+description: NPCs de jugadores reales con hologramas para Java y Bedrock
+softdepend: [ SkinsRestorer ]
+
+commands:
+  fnpc:
+    description: Comando principal de FriendesNPCs
+    aliases: [ friendnpc, fn ]
+    permission: friendesnpcs.admin
+    usage: /fnpc <subcommand>
+
+permissions:
+  friendesnpcs.admin:
+    description: Acceso total a FriendesNPCs
+    default: op
+  friendesnpcs.create:
+    description: Crear NPCs
+    default: op
+  friendesnpcs.remove:
+    description: Eliminar NPCs
+    default: op
+  friendesnpcs.edit:
+    description: Editar NPCs
+    default: op
+  friendesnpcs.interact:
+    description: Interactuar con NPCs
+    default: true
